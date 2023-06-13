@@ -1,0 +1,52 @@
+{
+    "supabase": {
+        "table": "EXAMPLE_TABLE",
+        "url": "EXAMPLE.supabase.co",
+        "api_key": "API_KEY"
+    },
+    "path": {
+        "img_asesino": "/EXAMPLE/asesino.jpeg",
+        "img_victima": "/EXAMPLE/victima.jpeg",
+        "img_panel": "/EXAMPLE/panel.jpeg",
+        "txt_info": "/EXAMPLE/tweetText.txt"
+    },
+    "eliminated_image": {
+        "text":"X",
+        "font": "EXAMPLE/Arial.ttf",
+        "color":"#c43636"
+    },
+    "panel_royale": {
+        "height": HEIGHT PANEL ROYALE,
+        "width": WITH PANEL ROYALE,
+        "margin": MARGIN OUT PANEL ROYALE,
+        "color": {
+            "alive": "#FFFFFF",
+            "eliminated": "#c43636",
+            "background": "#000000"
+        },
+        "text": {
+            "font": "EXAMPLE/Arial.ttf",
+            "line_break": NUMBER FOR EACH NAME MAKE A BREAK LINE,
+            "size_text": NUMBER TEXT SIZE FOR EACH NAME ROYALE,
+            "separator": "========================================================",
+            "title": "@EXAPLE  #EXAMPLET1  -  AN EXAMPLE",
+            "footer_3_items": " TOTAL: {0}  ALIVE: {1}      ELIMINATED: {2}"
+        }
+    },
+    "twitter": {
+        "auth": {
+            "id_user_dm_error": NUM_ID_TWITTER_USER,
+            "access_token": "TWITTER ACCES TOKEN",
+            "access_token_secret": "TWITTER ACCES TOKEN SECRET",
+            "consumer_key": "TWITTER CONSUMER KEY ",
+            "consumer_secret": "TWITTER CONSUMER KEY SECRET"
+        },
+        "text": {
+            "battle_3_items": "Killer: {0} Eliminated: {1}. Remaining {2} characters.",
+            "winner": "EXAMPLE CONGRATULATION WINNER",
+            "finished_royale": "EXAMPLE TWEET FINISHED",
+            "on_finihed_dm": "[SERVER] EXAMPLE FINISHED BOT PLEASE CHANGE 'secretCode_stopBot'"
+        }
+    },
+    "secret_code_stop_bot": "INTERNAL CODE TO STOP BOT ON FINISHED, WRITE ANYTHING"
+}
